@@ -16,7 +16,7 @@ module.exports = function (app) {
   var champ_count = 0;
   var spell;
 
-  app.get('/', function (req, res) {
+  app.get('/main', function (req, res) {
     var rotation_name = new Array();
     var rotation_name_newbie = new Array();
     var rotation_pic = new Array();
