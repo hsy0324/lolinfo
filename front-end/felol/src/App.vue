@@ -1,7 +1,16 @@
-<template> </template>
+<template>
+	<div>
+		<home></home>
+	</div>
+</template>
 
 <script>
-export default {};
+import home from './views/home';
+export default {
+	components: {
+		home,
+	},
+};
 </script>
 
 <style></style>
